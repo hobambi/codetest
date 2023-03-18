@@ -7,7 +7,7 @@ class Solution
     {
        int answer = 0;
 
-		if (s.length() == 1)
+		if (s.length()%2 != 0)
 			return 0;
 
 		char c = s.charAt(0);
